@@ -1,8 +1,7 @@
 [build]
   command = "CI=false npm run build"
-  publish = "/client/build"
+  publish = "build"
   base ="/client"
-  build = "build"
 
 [[redirects]]
   from = "/*"
